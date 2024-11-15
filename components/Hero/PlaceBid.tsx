@@ -42,7 +42,7 @@ export const PlaceBid = ({
     functionName: "createBidWithReferral",
     args: [
       BigNumber.from(tokenId || 1),
-      "0x1C937764e433878c6eB1820bC5a1A42c6f25dA81",
+      "0x168D8b4f50BB3aA67D05a6937B643004257118ED",
     ],
     overrides: {
       value: utils.parseEther(debouncedBid || "0"),
